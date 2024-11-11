@@ -1,0 +1,170 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333; /* Texto general en gris oscuro */
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #0044cc; /* Azul del logo */
+    color: #ffffff;
+}
+
+header .logo h1 {
+    font-size: 1.5em;
+}
+
+header .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+header .navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .navbar ul li a:hover {
+    color: #ff6600; /* Naranja del logo */
+}
+
+/* Sección de Banner */
+.banner {
+    background: url('banner-image.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 4em 2em;
+    background-color: #28a745; /* Verde del logo */
+}
+
+.banner-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.banner-content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.banner-content .btn {
+    background-color: #ff6600; /* Naranja del logo */
+    color: #ffffff;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.banner-content .btn:hover {
+    background-color: #0044cc; /* Azul del logo */
+}
+
+/* Sección de Niveles Educativos */
+.niveles-educativos {
+    padding: 3em 2em;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.niveles-educativos h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #0044cc; /* Azul del logo */
+}
+
+.niveles-grid {
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nivel {
+    background: #ffffff;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 300px;
+}
+
+.nivel h3 {
+    color: #28a745; /* Verde del logo */
+}
+
+.nivel p {
+    color: #333;
+}
+
+/* Sección de Admisiones */
+.admisiones {
+    padding: 3em 2em;
+    text-align: center;
+}
+
+.admisiones h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #0044cc; /* Azul del logo */
+}
+
+.pasos-admision {
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.paso {
+    background: #ff6600; /* Naranja del logo */
+    color: #ffffff;
+    padding: 1.5em;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.paso h3 {
+    font-size: 1.5em;
+}
+
+.paso p {
+    font-size: 1em;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #0044cc; /* Azul del logo */
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5em 2em;
+}
+
+footer .footer-content p {
+    margin-bottom: 0.5em;
+}
+
+footer a {
+    color: #ff6600; /* Naranja del logo */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #28a745; /* Verde del logo */
+}
